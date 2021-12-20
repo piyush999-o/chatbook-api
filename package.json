@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "This is the Backend and Server of Chatbook Application.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piyush999-o/chatbook-api.git"
+  },
+  "keywords": [
+    "Chatbook",
+    "chatbook99"
+  ],
+  "author": "Piyush",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piyush999-o/chatbook-api/issues"
+  },
+  "homepage": "https://github.com/piyush999-o/chatbook-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.0"
+  }
+}
